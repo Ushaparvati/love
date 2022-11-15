@@ -6,8 +6,6 @@ my_turtle_cursor = turtle.Turtle()
 
 # Creating a separate Canvas to draw "I Love You"
 my_turtle_screen = turtle.Screen()
-
-
 # Creating a pause function to pause the cursor
 def pause():
     my_turtle_cursor.speed(2)
@@ -28,9 +26,6 @@ def write_I_inside_heart():
 
     # Adding the text and changing the font of our text
     my_turtle_cursor.write("I", font=("Helevetica", 54, "bold"))
-
-
-
 # Function to write "Love" inside heart
 def write_Love_inside_heart():
 
@@ -44,8 +39,6 @@ def write_Love_inside_heart():
 
     # Adding the text and changing the font of our text
     my_turtle_cursor.write("Love", font=("Helevetica", 54, "bold"))
-
-
 # Function to write "You" inside heart
 def write_you_inside_heart():
 
@@ -59,8 +52,6 @@ def write_you_inside_heart():
 
     # Adding the text and changing the font of our text
     my_turtle_cursor.write("You", font=("Helevetica", 54, "bold"))
-
-
 # Method to draw a heart
 def draw_complete_heart():
     # Set the fill color to #FF0000
